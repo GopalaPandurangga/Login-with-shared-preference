@@ -1,0 +1,36 @@
+name: slicing_ui2_login
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0-48.0.dev <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  curved_navigation_bar: ^1.0.3
+  cached_network_image: ^3.3.0
+  url_launcher: ^6.2.1
+  flutter_rating_bar: ^4.0.1
+  carousel_slider: ^4.2.1
+  flutter_image_compress: ^2.1.0
+  file_picker: ^6.0.0
+  dio: ^5.3.3
+  image_picker: ^1.0.4
+  uuid: ^4.1.0
+  material_design_icons_flutter: ^7.0.7296
+  google_fonts: ^6.1.0
+  intl: ^0.18.1
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  flutter_animate: ^4.2.0+1
+  shared_preferences: ^2.2.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
