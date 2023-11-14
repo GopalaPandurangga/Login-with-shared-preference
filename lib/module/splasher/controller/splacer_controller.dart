@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:slicing_ui2_login/core.dart';
-import '../view/splacer_view.dart';
+import '../view/splasher_view.dart';
 
-class SplacerController extends State<SplacerView> {
+class SplacerController extends State<SplasherView> {
   static late SplacerController instance;
-  late SplacerView view;
+  late SplasherView view;
 
   @override
   void initState() {

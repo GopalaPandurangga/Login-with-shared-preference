@@ -10,8 +10,8 @@ export 'package:slicing_ui2_login/module/login/controller/login_controller.dart'
 export 'package:slicing_ui2_login/module/login/view/login_view.dart';
 export 'package:slicing_ui2_login/module/model/product/product.dart';
 export 'package:slicing_ui2_login/module/model/user/user.dart';
-export 'package:slicing_ui2_login/module/splacer/controller/splacer_controller.dart';
-export 'package:slicing_ui2_login/module/splacer/view/splacer_view.dart';
+export 'package:slicing_ui2_login/module/splasher/controller/splacer_controller.dart';
+export 'package:slicing_ui2_login/module/splasher/view/splasher_view.dart';
 export 'package:slicing_ui2_login/services/auth_service/auth_service.dart';
 export 'package:slicing_ui2_login/services/local_data_service/local_data_service.dart';
 export 'package:slicing_ui2_login/shared/theme/theme.dart';

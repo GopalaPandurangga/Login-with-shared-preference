@@ -82,21 +82,21 @@ class LoginView extends StatefulWidget {
                       const SizedBox(
                         height: 36.0,
                       ),
-                      Container(
-                        height: 68,
-                        width: MediaQuery.of(context).size.width,
-                        decoration: BoxDecoration(
-                          color: Colors.red,
-                          borderRadius: BorderRadius.circular(20.0),
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            InkWell(
-                              onTap: () {
-                                controller.doLogin();
-                              },
-                              child: const Text(
+                      InkWell(
+                        onTap: () {
+                          controller.doLogin();
+                        },
+                        child: Container(
+                          height: 68,
+                          width: MediaQuery.of(context).size.width,
+                          decoration: BoxDecoration(
+                            color: Colors.red,
+                            borderRadius: BorderRadius.circular(20.0),
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              const Text(
                                 "Sign in",
                                 style: TextStyle(
                                   color: Colors.white,
@@ -105,8 +105,8 @@ class LoginView extends StatefulWidget {
                                 ),
                                 textAlign: TextAlign.center,
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                       ),
                       const SizedBox(

@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: getDefaultTheme(),
       home: AuthService.currentUser != null
           ? const DashboardView()
-          : const SplacerView(),
+          : const SplasherView(),
     );
   }
 }

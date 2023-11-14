@@ -1,6 +1,6 @@
 {
     "modules": [
-        "splacer",
+        "splasher",
         "login",
         "dashboard"
     ],

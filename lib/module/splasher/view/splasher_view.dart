@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:slicing_ui2_login/core.dart';
 import '../controller/splacer_controller.dart';
 
-class SplacerView extends StatefulWidget {
-  const SplacerView({Key? key}) : super(key: key);
+class SplasherView extends StatefulWidget {
+  const SplasherView({Key? key}) : super(key: key);
 
   Widget build(context, SplacerController controller) {
     controller.view = this;
@@ -42,7 +42,7 @@ class SplacerView extends StatefulWidget {
                     height: 100.0,
                   ),
                   const Text(
-                    "Discover our\nDream job here ",
+                    "Discover your\nDream job here ",
                     style: TextStyle(
                         fontSize: 28.0, height: 1, fontWeight: FontWeight.w600),
                     textAlign: TextAlign.center,
@@ -122,5 +122,5 @@ class SplacerView extends StatefulWidget {
   }
 
   @override
-  State<SplacerView> createState() => SplacerController();
+  State<SplasherView> createState() => SplacerController();
 }
